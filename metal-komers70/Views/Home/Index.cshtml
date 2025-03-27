@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Home";
+}
+<a asp-controller="Home" asp-action="Index" class="nav-link">
+    <span class="lang" data-en="Home" data-bg="Начало">Home</span>
+</a>
+
+<section class="showcase">
+    <div class="container">
+        <h1 class="lang" data-en="WELCOME TO OUR SITE" data-bg="ДОБРЕ ДОШЛИ В НАШИЯ САЙТ">WELCOME TO OUR SITE</h1>
+        <p class="lang"
+           data-en="Metalkomers - 70 offers you the opportunity to have the most luxurious facade, both the complete fabrication and installation, as well as only procurement and sale of high-quality material in its pure form. We offer our dear customers interior solutions including wall and window decorations or luxury aluminum composite panel planters for your trees and flowers."
+           data-bg="Металкомерс – 70 ви предлага възможността да имате най-луксозната фасада, както цялостната изработка и монтаж, така и само заготовка и продажба на висококачествен материал в чист вид. Ние предлагаме на своите скъпи клиенти решения за интериора включващи декорации на стени и прозорци или луксозни кашпи от алуминиев композитен панел за вашите дръвчета и цветя.">
+            Metalkomers - 70 offers you the opportunity to have the most luxurious facade...
+        </p>
+    </div>
+</section>
+
+<section class="showcase">
+    <div class="container">
+        <h1 class="lang" data-en="NEWS" data-bg="НОВИНИ">NEWS</h1>
+        <p class="lang" data-en="The company has been certified by ISO" data-bg="Компанията е сертифицирана по ISO">The company has been certified by ISO</p>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        // Initialize language to English by default
+        document.addEventListener('DOMContentLoaded', function() {
+            switchLanguage('en');
+        });
+    </script>
+}

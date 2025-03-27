@@ -1,0 +1,93 @@
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<a asp-controller="Home" asp-action="Contact" class="nav-link">
+    <span class="lang" data-en="Contact Us" data-bg="Контакти">Contact Us</span>
+</a>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+<section class="showcase">
+    <div class="container">
+        <h1 class="lang" data-en="Contact Us" data-bg="Свържете се с нас">Contact Us</h1>
+        <p class="lang"
+           data-en="We would love to hear from you. Get in touch with us using the form below or visit our office and firm buildings."
+           data-bg="Ще се радваме да чуем от вас. Свържете се с нас чрез формата по-долу или посетете нашия офис и фирмени сгради.">
+            We would love to hear from you...
+        </p>
+    </div>
+</section>
+
+<div class="container">
+    <section class="contact-info">
+        <h2 class="lang" data-en="Our Office" data-bg="Нашият Офис">Our Office</h2>
+        <p>
+            <strong class="lang" data-en="Office Address:" data-bg="Офис Адрес:">Office Address:</strong>
+            <span class="lang" data-en="ul. 'Kiril Hristov' №8, Plovdiv, Bulgaria" data-bg="ул. 'Кирил Христов' №8, Пловдив, България">
+                ul. 'Kiril Hristov' №8, Plovdiv, Bulgaria
+            </span>
+        </p>
+
+        <h2 class="lang" data-en="Our Firm Buildings" data-bg="Нашите Фирмени Сгради">Our Firm Buildings</h2>
+        <p>
+            <strong class="lang" data-en="Industrial Zone Plovdiv Building Address:" data-bg="Индустриална Зона Пловдив Сграда Адрес:">Industrial Zone Plovdiv Building Address:</strong>
+            <span class="lang" data-en="Southern Industrial ZoneYuzhen, Юиз 33, 4004 Plovdiv, Bulgaria" data-bg="Южна Индустриална Зона, Юиз 33, 4004 Пловдив, България">
+                Southern Industrial ZoneYuzhen, Юиз 33, 4004 Plovdiv, Bulgaria
+            </span>
+        </p>
+
+        <p>
+            <strong class="lang" data-en="Konush Building Coordinates:" data-bg="Конуш Сграда Координати:">Konush Building Coordinates:</strong>
+            <span class="lang" data-en="42.073852, 25.038185, Konush, Bulgaria" data-bg="42.073852, 25.038185, Конуш, България">
+                42.073852, 25.038185, Konush, Bulgaria
+            </span>
+        </p>
+
+        <h2 class="lang" data-en="Email Us" data-bg="Пратете Ни Имейл">Email Us</h2>
+        <p>
+            <strong class="lang" data-en="Email 1:" data-bg="Имейл 1:">Email 1:</strong>
+            <a href="mailto:metalkomers70@gmail.com">metalkomers70@gmail.com</a>
+        </p>
+        <p>
+            <strong class="lang" data-en="Email 2:" data-bg="Имейл 2:">Email 2:</strong>
+            <a href="mailto:metal_komers@abv.bg">metal_komers@abv.bg</a>
+        </p>
+    </section>
+
+    <section class="contact-form">
+        <form asp-action="Contact" method="post">
+            <input type="hidden" name="access_key" value="3f65838c-648a-46cc-876e-4d223d1d4e68">
+            <h2 class="lang" data-en="Contact Form" data-bg="Форма за контакт">Contact Form</h2>
+
+            <div class="form-group">
+                <label for="name" class="lang" data-en="Name:" data-bg="Име:">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="lang" data-en="Email:" data-bg="Имейл:">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone" class="lang" data-en="Phone Number:" data-bg="Телефонен Номер:">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="lang" data-en="Message:" data-bg="Съобщение:">Message:</label>
+                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary lang" data-en="Send" data-bg="Изпрати">Send</button>
+                <button type="reset" class="btn btn-secondary lang" data-en="Clear" data-bg="Изчисти">Clear</button>
+            </div>
+        </form>
+    </section>
+</div>

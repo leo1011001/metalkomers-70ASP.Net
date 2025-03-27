@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "metal-komers70/1.0.0": {
+        "runtime": {
+          "metal-komers70.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "metal-komers70/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

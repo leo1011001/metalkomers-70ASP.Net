@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+@using System.Globalization
+<html lang="@CultureInfo.CurrentCulture.TwoLetterISOLanguageName">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - METALKOMERS-70</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <style>
+        .active {
+            color: rgb(226,57,10) !important;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+
+        @@media (max-width: 768px) {
+            .container {
+                width: 95% !important;
+            }
+
+            header nav ul li {
+                display: block;
+                padding: 10px 0;
+            }
+        }
+    </style>
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style="font-size: 60px;" class="lang" data-en="METALKOMERS-70" data-bg="МЕТАЛКОМЕРС-70">METALKOMERS-70</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a asp-controller="Home" asp-action="Index"
+                           class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">
+                            <span class="lang" data-en="Home" data-bg="Начало">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="Home" asp-action="Services"
+                           class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Services" ? "active" : "")">
+                            <span class="lang" data-en="Services" data-bg="Услуги">Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="Home" asp-action="Contact"
+                           class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "active" : "")">
+                            <span class="lang" data-en="Contact" data-bg="Контакт">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <button onclick="switchLanguage('en')" class="lang-btn">EN</button>
+                <button onclick="switchLanguage('bg')" class="lang-btn">BG</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="lang" data-en="&copy; 2024 METALKOMERS-70. All rights reserved."
+               data-bg="&copy; 2024 МЕТАЛКОМЕРС-70. Всички права запазени.">
+                &copy; 2024 METALKOMERS-70. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Language switching with cookie persistence
+        function switchLanguage(lang) {
+            document.querySelectorAll('.lang').forEach(el => {
+                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                    el.placeholder = el.getAttribute(`data-${lang}`);
+                } else {
+                    el.innerHTML = el.getAttribute(`data-${lang}`);
+                }
+            });
+
+            // Set cookie for 1 year
+            document.cookie = `preferredLanguage=${lang};path=/;max-age=${365*24*60*60}`;
+
+            // Update active language button
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.style.backgroundColor = btn.textContent === lang.toUpperCase()
+                    ? 'rgb(226,57,10)'
+                    : '#525050';
+            });
+        }
+
+        // Initialize language
+        document.addEventListener('DOMContentLoaded', function() {
+            const lang = document.cookie.replace(
+                /(?:(?:^|.*;\s*)preferredLanguage\s*=\s*([^;]*).*$)|^.*$/,
+                "$1"
+            ) || 'en';
+
+            switchLanguage(lang);
+
+            // Set initial active button
+            document.querySelector(`.lang-btn[onclick="switchLanguage('${lang}')"]`)
+                  .style.backgroundColor = 'rgb(226,57,10)';
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

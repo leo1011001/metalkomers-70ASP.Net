@@ -1,0 +1,97 @@
+@{
+    ViewData["Title"] = "Our Services";
+}
+<a asp-controller="Home" asp-action="Services" class="nav-link">
+    <span class="lang" data-en="Our Services" data-bg="Услуги">Our Services</span>
+</a>
+
+<section class="service-section">
+    <div class="container">
+        <h2 class="lang" data-en="Facade Cladding" data-bg="Фасадни облицовки">Facade Cladding</h2>
+        <div class="services-grid">
+            <!-- Saraybond -->
+            <div class="service-item">
+                <img src="~/images/saraybond.jpg" alt="Saraybond">
+                <h3>Saraybond</h3>
+                <details>
+                    <summary class="container-see-more lang" data-en="See more" data-bg="Виж още">See more</summary>
+                    <p class="lang"
+                       data-en="The latest achievement of SARAYGROOP is the new material which is a great imitation of ceramic plates, offering a rich range of colors."
+                       data-bg="Най-новото постижение на SARAYGROOP е новият материал който е чудесна имитация на керамични плочи, като предлага и богата цветова гама.">
+                        The latest achievement of SARAYGROOP...
+                    </p>
+                </details>
+            </div>
+
+            <!-- Saraybond Cotta -->
+            <div class="service-item">
+                <img src="~/images/saraybond-cotta.jpg" alt="Saraybond Cotta">
+                <h3>Saraybond Cotta</h3>
+                <details>
+                    <summary class="container-see-more lang" data-en="See more" data-bg="Виж още">See more</summary>
+                    <p class="lang"
+                       data-en="The newest product of the saray group is saray cotta, it resembles a ceramic plate, it has an unsurpassed resistance over time with its coating (QUALICOAT). Extremely easy and economical to hang compared to the ceramic plate, its weight is only 7 kg/m2."
+                       data-bg="Най-новия продукт на saray group e saray cotta, той наподобява керамична плоча, притежава ненадмината устойчивост във времето със своето покритие (QUALICOAT). Изключително лесен и икономичен за окачване във сравнение с керамичната плоча, неговото тегло е едва 7 кг/м2.">
+                        The newest product of the saray group...
+                    </p>
+                </details>
+            </div>
+
+            <!-- Saraybond A2 -->
+            <div class="service-item">
+                <img src="~/images/saraybond-a2.jpg" alt="Saraybond A2">
+                <h3>Saraybond A2</h3>
+                <details>
+                    <summary class="container-see-more lang" data-en="See more" data-bg="Виж още">See more</summary>
+                    <p class="lang"
+                       data-en="'SARAY A2' consists of one embossed aluminum core with a thickness of 2.7 mm, glued between two aluminum sheets. The overall thickness is 4mm. Its weight is 4.80 kg/m2."
+                       data-bg="'SARAY A2' се състои от едно релефно ядро алуминий с дебелина 2.7 mm, залепено между два алуминиеви листа. Като цяло дебелината е 4мм. Теглото му е 4,80 кг/м2.">
+                        'SARAY A2' consists of one embossed aluminum core...
+                    </p>
+                </details>
+            </div>
+
+            <!-- ALUFACE / FR -->
+            <div class="service-item">
+                <img src="~/images/aluface-fr.jpg" alt="ALUFACE / FR">
+                <h3>ALUFACE / FR</h3>
+                <details>
+                    <summary class="container-see-more lang" data-en="See more" data-bg="Виж още">See more</summary>
+                    <p class="lang"
+                       data-en="ALUFACE-FR consists of a refractory mineral core glued between two aluminum sheets. Mainly used for exterior cladding of buildings where fire resistance is important."
+                       data-bg="ALUFACE-FR се състои от огнеупорна минерална сърцевина, залепена между два листа от алуминий. Използва се предимно за външна облицовка на сгради, където устойчивостта на огън е важна.">
+                        ALUFACE-FR consists of a refractory mineral core...
+                    </p>
+                </details>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Styles {
+    <style>
+        .service-item img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .service-item {
+            transition: transform 0.3s ease;
+        }
+
+            .service-item:hover {
+                transform: translateY(-5px);
+            }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        // Initialize language to English by default
+        document.addEventListener('DOMContentLoaded', function() {
+            switchLanguage('en');
+        });
+    </script>
+}
