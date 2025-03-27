@@ -12,8 +12,9 @@ namespace metal_komers70.Controllers
         private readonly IEmailService _emailService;
         private AppDbContext _context;
 
-        public HomeController(IEmailService emailService)
+        public HomeController(AppDbContext context, IEmailService emailService)
         {
+            _context = context;
             _emailService = emailService;
         }
 
@@ -32,29 +33,41 @@ namespace metal_komers70.Controllers
             return View();
         }
 
+
+        // Създай клас в папка модели ContactFormViewModel
+        // Просто
         [HttpPost]
-        public async Task<IActionResult> Contact(ContactFormModel model)
+        public async Task<IActionResult> Contact(ContactFormViewModel model)
         {
+            Console.WriteLine(ModelState.IsValid);
             if (ModelState.IsValid)
             {
                 try
                 {
-                    await _emailService.SendContactFormAsync(
-                        model.Name,
-                        model.Email,
-                        model.Phone,
-                        model.Message);
+                    ContactFormModel contact = new()
+                    {
+                        Name = model.Name,
+                        Email = model.Email,
+                        Phone = model.Phone,
+                        Message = model.Message
+                    };
+
+                    //await _emailService.SendContactFormAsync(
+                    //    model.Name,
+                    //    model.Email,
+                    //    model.Phone,
+                    //    model.Message);
 
                     TempData["Message"] = "Thank you for your message!";
 
-                    _context.Add(model);
+                    _context.Contacts.Add(contact);
                     await _context.SaveChangesAsync();
 
                     return RedirectToAction("Contact");
                 }
                 catch (Exception ex)
                 {
-                    ModelState.AddModelError("", "Error sending message. Please try again later.");
+                    ViewData["Message"] = "Error sending message. Please try again later.";
                     // Log the exception
                 }
             }

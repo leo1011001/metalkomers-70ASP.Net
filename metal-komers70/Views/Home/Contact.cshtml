@@ -61,6 +61,11 @@
 
     <section class="contact-form">
         <form asp-action="Contact" method="post">
+            @{
+                if (ViewData["Message"] != null) {
+                    <p>@ViewData["Message"]</p>
+                }
+            }
             <input type="hidden" name="access_key" value="3f65838c-648a-46cc-876e-4d223d1d4e68">
             <h2 class="lang" data-en="Contact Form" data-bg="Форма за контакт">Contact Form</h2>
 

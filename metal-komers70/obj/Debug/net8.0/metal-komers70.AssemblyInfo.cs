@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("metal-komers70")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+785d18aec743866ba3ade38252f2a135d36e2288")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3c37f8f781ee39d4215a037cb0625f68a5a94ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("metal-komers70")]
 [assembly: System.Reflection.AssemblyTitleAttribute("metal-komers70")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

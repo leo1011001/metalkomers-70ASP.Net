@@ -7,16 +7,31 @@
       "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\views\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\views\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\views\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\views\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\SourceServer\\a8a4242a23ed945ed73d2c4febeba8d0a5e65799e44167b87a68df405763b4bc\\metal-komers70\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\migrations\\20250327084205_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\migrations\\20250327084205_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\models\\contactformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\models\\contactformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\views\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +42,12 @@
       "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Migrations\\20250327084205_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:metal-komers70\\Migrations\\20250327084205_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\models\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|solutionrelative:metal-komers70\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{986A5A7A-FCFE-4F71-A57C-C4EB1C394C9A}|metal-komers70\\metal-komers70.csproj|c:\\users\\user\\documents\\github\\metalkomers-70asp.net\\metal-komers70\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -82,7 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,72 +97,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "metal-komers70\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "metal-komers70\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "metal-komers70\\Controllers",
+              "WhenOpened": "2025-03-27T06:28:50.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\SourceServer\\a8a4242a23ed945ed73d2c4febeba8d0a5e65799e44167b87a68df405763b4bc\\metal-komers70\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\a8a4242a23ed945ed73d2c4febeba8d0a5e65799e44167b87a68df405763b4bc\\metal-komers70\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\SourceServer\\a8a4242a23ed945ed73d2c4febeba8d0a5e65799e44167b87a68df405763b4bc\\metal-komers70\\Controllers\\HomeController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\a8a4242a23ed945ed73d2c4febeba8d0a5e65799e44167b87a68df405763b4bc\\metal-komers70\\Controllers\\HomeController.cs [Read Only]",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAcAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:21:47.572Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "metal-komers70\\Views\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Services\\EmailService.cs",
-              "RelativeToolTip": "metal-komers70\\Views\\Services\\EmailService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T06:39:29.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Program.cs",
-              "RelativeDocumentMoniker": "metal-komers70\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Program.cs",
-              "RelativeToolTip": "metal-komers70\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T06:21:12.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\appsettings.json",
-              "RelativeDocumentMoniker": "metal-komers70\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\appsettings.json",
-              "RelativeToolTip": "metal-komers70\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T06:47:14.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\wwwroot\\css\\styles.css",
-              "RelativeDocumentMoniker": "metal-komers70\\wwwroot\\css\\styles.css",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\wwwroot\\css\\styles.css",
-              "RelativeToolTip": "metal-komers70\\wwwroot\\css\\styles.css",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-20T06:44:09.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "metal-komers70\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Data\\AppDbContext.cs",
               "RelativeToolTip": "metal-komers70\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T08:30:21.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T08:30:21.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "metal-komers70\\Views\\Shared\\_Layout.cshtml",
@@ -163,12 +144,83 @@
               "RelativeToolTip": "metal-komers70\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T06:11:07.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T06:11:07.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "metal-komers70\\Views\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Services\\EmailService.cs",
+              "RelativeToolTip": "metal-komers70\\Views\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T06:39:29.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250327084205_Init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Migrations\\20250327084205_Init.cs",
+              "RelativeDocumentMoniker": "metal-komers70\\Migrations\\20250327084205_Init.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Migrations\\20250327084205_Init.cs",
+              "RelativeToolTip": "metal-komers70\\Migrations\\20250327084205_Init.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:42:05.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "metal-komers70\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "metal-komers70\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T06:27:33.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "metal-komers70\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "metal-komers70\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-20T06:44:09.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\appsettings.json",
+              "RelativeDocumentMoniker": "metal-komers70\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\appsettings.json",
+              "RelativeToolTip": "metal-komers70\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T06:47:14.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Models\\ContactFormViewModel.cs",
+              "RelativeDocumentMoniker": "metal-komers70\\Models\\ContactFormViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Models\\ContactFormViewModel.cs",
+              "RelativeToolTip": "metal-komers70\\Models\\ContactFormViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:28:55.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "metal-komers70\\Views\\Home\\Index.cshtml",
@@ -180,20 +232,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "metal-komers70\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "metal-komers70\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDkAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Program.cs",
+              "RelativeDocumentMoniker": "metal-komers70\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Program.cs",
+              "RelativeToolTip": "metal-komers70\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T06:28:50.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T06:21:12.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Services.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Home\\Services.cshtml",
               "RelativeDocumentMoniker": "metal-komers70\\Views\\Home\\Services.cshtml",
@@ -205,20 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "metal-komers70\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "metal-komers70\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T06:27:33.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Services\\IEmailService.cs",
               "RelativeDocumentMoniker": "metal-komers70\\Views\\Services\\IEmailService.cs",
@@ -226,12 +264,11 @@
               "RelativeToolTip": "metal-komers70\\Views\\Services\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T06:38:14.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T06:38:14.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ContactFormModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Models\\ContactFormModel.cs",
               "RelativeDocumentMoniker": "metal-komers70\\Models\\ContactFormModel.cs",
@@ -239,25 +276,11 @@
               "RelativeToolTip": "metal-komers70\\Models\\ContactFormModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T08:35:40.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T08:35:40.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250327084205_Init.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Migrations\\20250327084205_Init.cs",
-              "RelativeDocumentMoniker": "metal-komers70\\Migrations\\20250327084205_Init.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Migrations\\20250327084205_Init.cs",
-              "RelativeToolTip": "metal-komers70\\Migrations\\20250327084205_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T08:42:05.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\appsettings.Development.json",
               "RelativeDocumentMoniker": "metal-komers70\\appsettings.Development.json",
@@ -269,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "metal-komers70\\Views\\_ViewStart.cshtml",
@@ -281,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "metal-komers70\\Views\\Home\\Privacy.cshtml",
@@ -293,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "metal-komers70\\Models\\ErrorViewModel.cs",
@@ -305,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "metal-komers70\\wwwroot\\css\\site.css",
