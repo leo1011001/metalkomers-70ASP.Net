@@ -3,12 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 using metal_komers70.Models;
 using metal_komers70.Views.Services;
 using Microsoft.AspNetCore.Mvc;
+using metal_komers70.Data;
 
 namespace metal_komers70.Controllers
 {
     public class HomeController : Controller
     {
         private readonly IEmailService _emailService;
+        private AppDbContext _context;
 
         public HomeController(IEmailService emailService)
         {
@@ -44,6 +46,10 @@ namespace metal_komers70.Controllers
                         model.Message);
 
                     TempData["Message"] = "Thank you for your message!";
+
+                    _context.Add(model);
+                    await _context.SaveChangesAsync();
+
                     return RedirectToAction("Contact");
                 }
                 catch (Exception ex)

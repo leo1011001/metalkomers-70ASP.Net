@@ -1,12 +1,15 @@
+using metal_komers70.Data;
 using metal_komers70.Views.Services;
 using Microsoft.AspNetCore.Localization;
+using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add email service
 builder.Services.AddTransient<IEmailService, EmailService>();
-builder.Services.AddD
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MetalKomers70")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

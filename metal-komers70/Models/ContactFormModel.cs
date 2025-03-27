@@ -4,6 +4,9 @@ namespace metal_komers70.Models
 {
     public class ContactFormModel
     {
+        [Key]
+        public int Id { get; set; }
+
         [Required]
         public string Name { get; set; }
 

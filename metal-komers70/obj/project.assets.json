@@ -4739,11 +4739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Leon Stanev 11a\\metal-komers70\\metal-komers70\\metal-komers70.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\metal-komers70.csproj",
       "projectName": "metal-komers70",
-      "projectPath": "C:\\Users\\User\\Desktop\\Leon Stanev 11a\\metal-komers70\\metal-komers70\\metal-komers70.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\metal-komers70.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Leon Stanev 11a\\metal-komers70\\metal-komers70\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\metalkomers-70ASP.Net\\metal-komers70\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
